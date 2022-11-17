@@ -1,0 +1,12 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "oefeningen voor html-css 2023 van elan  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "surge": "surge . elan-html-css-2023.surge.sh"
+  },
+  "author": "elan",
+  "license": "ISC"
+}

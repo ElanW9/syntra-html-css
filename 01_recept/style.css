@@ -1,0 +1,92 @@
+h1 {
+    color: dodgerblue;
+    font-style: oblique;
+    text-align: center;
+    font-size: 350%;
+  
+}
+
+.button {
+    font-size: 150%;
+    border: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+    text-decoration: none;
+
+    
+}
+
+.button:hover{
+    color: lightblue;
+    text-decoration: none;
+}
+
+h2 {
+    color: cornflowerblue;
+
+}
+
+section h2{
+    color: dodgerblue;
+    border: 5px;
+    border-style: dashed;
+}
+
+
+p {
+    font-size: medium;
+    text-align: justify;
+    font-style: normal;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 20s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+section li:hover {
+    color: lightblue;
+    font-size: 150%;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+

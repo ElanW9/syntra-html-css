@@ -1,0 +1,90 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 62.5%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+
+/*dit selecteerd ul binnen nav element*/
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #699BF7;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+}
+
+
+nav ul li {
+padding: 34px 34px 39px 34px;
+cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+aside {
+    background-color: #c8b8ff;
+    padding: 22px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 62px 11vw;
+    justify-content: space-between;
+
+}
+
+article {
+display: flex;
+flex-direction: column;
+gap: 36px;
+font-size: 1.4rem;
+width: 400px;
+}
+
+
+article button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px 27px; 
+    width: fit-content;
+    border-radius: 4px;
+}
+
+article button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+section {
+    font-size: 1.6rem;
+}
+
+article section{
+    line-height: 25px;
+}
