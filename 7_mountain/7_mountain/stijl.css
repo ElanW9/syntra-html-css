@@ -1,0 +1,101 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 100%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+
+nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  color: white;
+  font-family: Montseratt;
+  font-size: 80%;
+}
+
+nav :hover {
+  color: chocolate;
+}
+
+.differentfont {
+  font-family: Raleway;
+  font-size: 200%;
+}
+
+.img1 {
+  size: 80%;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway2;
+  src: url(fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Raleway3;
+  src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montseratt;
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+header {
+  background-image: url(images/background.jpg);
+}
+
+article {
+  margin-top: 100px;
+  text-align: center;
+  gap: 20px;
+  color: white;
+}
+
+article h1 {
+  font-size: 36px;
+  font-family: Raleway2;
+}
+
+article h2 {
+  font-size: 56px;
+  font-family: Raleway3;
+}
+
+article p {
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: Montseratt;
+}
+
+article button {
+  margin-top: 25px;
+  font-family: Raleway3;
+}
+
+button {
+  background-color: rgb(249, 170, 0);
+  color: white;
+  border-radius: 2px;
+  border-style: none;
+}

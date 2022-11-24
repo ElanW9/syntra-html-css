@@ -19,10 +19,9 @@ header {
 }
 
 .parent {
-  display: grid;
-  grid-template-columns: repeat(3, max-content);
-  grid-template-rows: (2, max-content);
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 article {
@@ -66,9 +65,17 @@ i.fa {
 .parent2 {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, max-content);
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
   grid-template-rows: (5, max-content);
   grid-gap: 20px;
+}
+
+.parent2 img{
+  width: 100%;
+}
+
+.parent2 :hover {
+  width: 102%;
 }
 
 .section1 h3 {
