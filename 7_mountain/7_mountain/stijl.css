@@ -29,7 +29,7 @@ nav li {
 }
 
 nav :hover {
-  color: chocolate;
+  color: rgba(153,134,117,255);
 }
 
 .differentfont {
@@ -57,45 +57,96 @@ nav :hover {
 }
 
 @font-face {
+  font-family: Raleway4;
+  src: url(fonts/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
   font-family: Montseratt;
   src: url(fonts/Montserrat/Montserrat-Light.ttf);
 }
 
 header {
   background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-article {
-  margin-top: 100px;
+header article {
+  padding-top: 100px;
+  padding-bottom: 200px;
   text-align: center;
   gap: 20px;
   color: white;
+
 }
 
-article h1 {
+header article h1 {
   font-size: 36px;
   font-family: Raleway2;
 }
 
-article h2 {
+header article h2 {
   font-size: 56px;
   font-family: Raleway3;
 }
 
-article p {
+header article p {
   font-size: 16px;
   margin-top: 15px;
   font-family: Montseratt;
 }
 
-article button {
+header article button {
   margin-top: 25px;
+  margin-bottom: 25px;
   font-family: Raleway3;
 }
 
-button {
-  background-color: rgb(249, 170, 0);
+header article button {
+  background-color: rgba(153,134,117,255);
   color: white;
   border-radius: 2px;
   border-style: none;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+button:hover{
+  background-color: chocolate;
+}
+
+main article{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main article h5{
+  font-family: Raleway4;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+main article p{
+  font-family: Montseratt;
+  font-size: 14px;
+}
+
+main article:hover{
+  color: rgba(153,134,117,255);
+}
+
+.parent{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+  grid-template-rows: (5, max-content);
+  grid-gap: 10px;
+  
+}
+
