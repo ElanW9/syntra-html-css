@@ -74,7 +74,7 @@ header {
 }
 
 header article {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-bottom: 200px;
   text-align: center;
   gap: 20px;
@@ -113,6 +113,13 @@ header article button {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+header section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 button:hover{
   background-color: chocolate;
